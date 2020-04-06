@@ -1,12 +1,10 @@
 {
-  "name": "express-ws",
-  "version": "4.0.0",
+  "name": "@rocketsoftware/express-ws",
+  "version": "5.0.0",
   "description": "WebSocket endpoints for Express applications",
   "main": "index.js",
   "scripts": {
-    "prepublish": "npm run build",
-    "build": "babel src/ -d lib/",
-    "lint": "eslint src/"
+    "lint": "eslint lib/"
   },
   "author": "Henning Morud <henning@morud.org>",
   "contributors": [
@@ -15,24 +13,25 @@
     "Andrew Phillips <theasp@gmail.com>",
     "Nicholas Schell <nschell@gmail.com>",
     "Max Truxa <dev@maxtruxa.com>",
-    "Kræn Hansen <mail@kraenhansen.dk>"
+    "Kræn Hansen <mail@kraenhansen.dk>",
+    "1000TurquoisePogs <sgrady@rocketsoftware.com>"
   ],
   "license": "BSD-2-Clause",
   "dependencies": {
-    "ws": "^5.2.0"
+    "ws": "^6.0.0"
   },
   "peerDependencies": {
-    "express": "^4.0.0 || ^5.0.0-alpha.1"
+    "express": "^4.0.0"
   },
   "engines": {
-    "node": ">=4.5.0"
+    "node": ">=6.0.0"
   },
   "directories": {
     "example": "examples"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/HenningM/express-ws"
+    "url": "https://github.com/rocketsoftware/express-ws"
   },
   "keywords": [
     "express",
@@ -40,15 +39,13 @@
     "websocket"
   ],
   "bugs": {
-    "url": "https://github.com/HenningM/express-ws/issues"
+    "url": "https://github.com/rocketsoftware/express-ws/issues"
   },
-  "homepage": "https://github.com/HenningM/express-ws",
+  "homepage": "https://github.com/rocketsoftware/express-ws",
   "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-preset-es2015": "^6.5.0",
-    "eslint": "^4.19.0",
-    "eslint-config-airbnb": "^14.1.0",
+    "eslint": "^5.0.0",
+    "eslint-config-airbnb": "^17.0.0",
     "eslint-plugin-import": "^2.12.0",
-    "express": "^5.0.0-alpha.6"
+    "express": "^4.0.0"
   }
 }
