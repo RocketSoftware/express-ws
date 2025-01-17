@@ -1,6 +1,6 @@
 {
   "name": "@rocketsoftware/express-ws",
-  "version": "5.0.0",
+  "version": "5.0.1",
   "description": "WebSocket endpoints for Express applications",
   "main": "index.js",
   "scripts": {
@@ -18,7 +18,7 @@
   ],
   "license": "BSD-2-Clause",
   "dependencies": {
-    "ws": "^6.0.0"
+    "ws": "^6.2.3"
   },
   "peerDependencies": {
     "express": "^4.0.0"
